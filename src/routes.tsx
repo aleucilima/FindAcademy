@@ -7,8 +7,10 @@ import AcademysMap from './pages/AcademysMap'
 function Routes() {
     return (
         <BrowserRouter>
-            <Route path="/" component={Landing}/>
-            <Route path="/app" component={AcademysMap}/>
+            <Switch>
+                <Route path="/" exact component={ Landing }/>
+                <Route path="/app" component={ AcademysMap }/>
+            </Switch>
         </BrowserRouter>
     )
 }
