@@ -3,7 +3,7 @@ import { FiArrowRight } from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
 import '../styles/pages/landing.css'
-import logoImg from '../images/logo.svg'
+import logoImg from '../images/logo.png'
 
 function Landing() {
     return (
@@ -12,8 +12,8 @@ function Landing() {
         <img src={logoImg} alt="logo"/>
 
         <main>
-          <h1>Leve felicidade para o mundo</h1>
-          <p>Visite orfanatos e mude o dia de muitas crianças.</p>
+          <h1>Encontre uma atividade física para você</h1>
+          <p>Conheça os lugares para você começar :)</p>
         </main>
 
         <div className="location">
