@@ -3,46 +3,6 @@
   min-height: 100vh;
 }
 
-#page-academy aside {
-  position: fixed;
-  height: 100%;
-  padding: 32px 24px;
-  background: linear-gradient(329.54deg, #31302e 0%, #0a0a0a 100%);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#page-academy aside img {
-  width: 48px;
-}
-
-#page-academy aside footer a,
-#page-academy aside footer button {
-  width: 48px;
-  height: 48px;
-
-  border: 0;
-
-  background: #ffd666;
-  border-radius: 16px;
-
-  cursor: pointer;
-
-  transition: background-color 0.2s;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#page-academy aside footer a:hover,
-#page-academy aside footer button:hover {
-  background: #fff212;
-}
-
 #page-academy main {
   flex: 1;
 }
